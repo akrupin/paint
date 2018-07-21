@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+#canvas {
+    position: absolute;
+    background: white;
+    left: 100px;
+    top: 5px;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+}
+
+.tool-selector {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
